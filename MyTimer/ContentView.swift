@@ -52,11 +52,10 @@ struct ContentView: View {
                                 .clipShape(Circle())
                         }
                     }
-                    
                 }
             }
             .onAppear{
-                
+                count = 0
             }
             .toolbar{
                 ToolbarItem(placement: .navigationBarTrailing){
